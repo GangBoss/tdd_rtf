@@ -29,7 +29,7 @@
 	}
 
 	function createFirebase() {
-		var url = "https://testing-challenge.firebaseio.com";
+		var url = "https://bowling-2cd83-default-rtdb.firebaseio.com/";
 		var realm = "bowling";
 		var dateKey = buildDateKey();
 		return new Firebase(`${url}/${realm}/${dateKey}`);

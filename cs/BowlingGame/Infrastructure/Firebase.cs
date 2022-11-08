@@ -8,7 +8,7 @@ namespace BowlingGame.Infrastructure
     {
         private static FirebaseConfig BuildConfig()
         {
-            const string Url = "https://testing-challenge.firebaseio.com";
+            const string Url = "https://bowling-2cd83-default-rtdb.firebaseio.com/";
             const string Realm = "bowling";
             var dateKey = DateTime.Now.Date.ToString("yyyyMMdd");
 
